@@ -1,0 +1,27 @@
+#play-area {
+  min-height: 350px;
+  min-width: 200px;
+  border: 2px solid red;
+}
+
+.word-to-guess {
+  margin-top: 20px;
+  border: 3px solid green;
+}
+
+#word {
+  margin-left: 30px;
+}
+
+.button-section {
+  margin-top: 10px;
+}
+
+#letters-group {
+  margin-top: 10px;
+}
+
+#game-play > span {
+  margin-right: 5px;
+  font-size: 45px;
+}

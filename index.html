@@ -5,11 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Impiccato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <h1>Gioco dell'impiccato</h1>
+        <div id="play-area"></div>
+        <div class="word-to-guess">
+            <label for="word">Inserisci parola da indovinare:</label>
+            <input type="text" name="word" id="word">
+        </div>
+        <div class="button-section">
+            <button onclick="play()">Play</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+        <div id="game-play"></div>
+        <div id="letters-group">
+            <button onclick="tryLetter('a')">a</button>
+            <button onclick="tryLetter('b')">b</button>
+            <button onclick="tryLetter('c')">c</button>
+            <button onclick="tryLetter('d')">d</button>
+            <button onclick="tryLetter('e')">e</button>
+            <button onclick="tryLetter('f')">f</button>
+            <button onclick="tryLetter('g')">g</button>
+            <button onclick="tryLetter('h')">h</button>
+            <button onclick="tryLetter('i')">i</button>
+            <button onclick="tryLetter('j')">j</button>
+            <button onclick="tryLetter('k')">k</button>
+            <button onclick="tryLetter('l')">l</button>
+            <button onclick="tryLetter('m')">m</button>
+            <button onclick="tryLetter('n')">n</button>
+            <button onclick="tryLetter('o')">o</button>
+            <button onclick="tryLetter('p')">p</button>
+            <button onclick="tryLetter('q')">q</button>
+            <button onclick="tryLetter('r')">r</button>
+            <button onclick="tryLetter('s')">s</button>
+            <button onclick="tryLetter('t')">t</button>
+            <button onclick="tryLetter('u')">u</button>
+            <button onclick="tryLetter('v')">v</button>
+            <button onclick="tryLetter('w')">w</button>
+            <button onclick="tryLetter('x')">x</button>
+            <button onclick="tryLetter('y')">y</button>
+            <button onclick="tryLetter('z')">z</button>
+        </div>
+        <div id="result-section"></div>
+    </div>
 
+    <script src="./main.js"></script>
 </body>
 
 </html>
